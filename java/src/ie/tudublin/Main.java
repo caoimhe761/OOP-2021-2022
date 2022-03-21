@@ -1,23 +1,44 @@
 package ie.tudublin;
 
+
+
 public class Main
 {
     public static void helloProcessing()
-	{
-		String[] a = {"MAIN"};
+    {
+        String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new HelloProcessing());
     }
 
     public static void bugZap()
-	{
-		String[] a = {"MAIN"};
+    {
+        String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new BugZap());
     }
 
     public static void loops()
-	{
-		String[] a = {"MAIN"};
+    {
+        String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Loops());
+    }
+
+    public static void arrays()
+    {
+        String[] a = {"MAIN"};
+      //  processing.core.PApplet.runSketch( a, new Arrays());
+    }
+
+
+    public static void audio1()
+    {
+        String[] a = {"MAIN"};
+      //  processing.core.PApplet.runSketch( a, new Audio1());
+    }
+
+    public static void life()
+    {
+        String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Life());
     }
 
     public void cat()
@@ -33,7 +54,7 @@ public class Main
         System.out.println(misty);
         System.out.println(lucy);
 
-        
+
         Cat cat = new Cat("Ginger");
 
         while(cat.getNumLives() > 0)
@@ -45,10 +66,10 @@ public class Main
     }
     public static void main(String[] args)
     {
-        loops();
+        life();
 
         // Tara Misty
         // Tara Tara
-        
+
     }
 }

@@ -8,7 +8,9 @@ public class Cat extends Animal
     {
         if (numLives > 0)
         {
+            //prints
             System.out.println("Ouch!");
+            //subtracts from number of lives
             numLives --;
         }
         else
@@ -17,7 +19,6 @@ public class Cat extends Animal
         }
     }
 
-    
     public int getNumLives() {
         return numLives;
     }
