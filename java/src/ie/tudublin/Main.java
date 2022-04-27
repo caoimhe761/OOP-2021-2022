@@ -4,6 +4,7 @@ package ie.tudublin;
 
 public class Main
 {
+    /*
     public static void helloProcessing()
     {
         String[] a = {"MAIN"};
@@ -18,29 +19,50 @@ public class Main
 
     public static void loops()
     {
-        String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Loops());
+      //  String[] a = {"MAIN"};
+    //    processing.core.PApplet.runSketch( a, new Loops());
     }
 
-    public static void arrays()
-    {
-        String[] a = {"MAIN"};
-      //  processing.core.PApplet.runSketch( a, new Arrays());
-    }
+   
+    public static void life()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Life());
 
+    }
+*/
 
     public static void audio1()
-    {
-        String[] a = {"MAIN"};
-      //  processing.core.PApplet.runSketch( a, new Audio1());
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Audio1());
+    }
+    
+
+    public static void audio2()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Audio2());
     }
 
-    public static void life()
-    {
-        String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Life());
+    public static void audio3()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Audio3());
+    }
+    public static void test()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new test());
+    }
+    /*
+    public static void colorfulLife()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new ColorfulLife());
     }
 
+    
     public void cat()
     {
         System.out.println("Hello world");
@@ -54,7 +76,6 @@ public class Main
         System.out.println(misty);
         System.out.println(lucy);
 
-
         Cat cat = new Cat("Ginger");
 
         while(cat.getNumLives() > 0)
@@ -63,10 +84,10 @@ public class Main
         }
         cat.kill();
 
-    }
+    }*/
     public static void main(String[] args)
     {
-        life();
+        audio3();
 
         // Tara Misty
         // Tara Tara
